@@ -1,0 +1,44 @@
+.hight {
+  margin: 250px auto; }
+  .hight .bg-theme-white {
+    color: #fff;
+    background-color: #3eaafd; }
+  .hight .bg-theme-black {
+    color: #fff;
+    background-color: #000; }
+    .hight .desc-dropcap .dropcap {
+      display: block;
+      float: left;
+      font-size: 40px;
+      line-height: 34px;
+      color: #444;
+      margin: 6px 8px 0 0; }
+    .hight .desc-dropcap .border-dropcap {
+      border: 2px solid #444;
+      width: 46px;
+      height: 46px;
+      font-size: 28px;
+      font-weight: 500;
+      line-height: 42px;
+      text-align: center;
+      margin: 8px 12px 0 0; }
+    .hight .desc-dropcap .bg-dropcap {
+      background-color: #444;
+      color: #fff;
+      width: 46px;
+      height: 46px;
+      font-size: 28px;
+      font-weight: 500;
+      line-height: 42px;
+      text-align: center;
+      margin: 8px 12px 0 0; }
+    .hight .desc-dropcap .circle-dropcap {
+      border: 2px solid #444;
+      border-radius: 50%;
+      width: 46px;
+      height: 46px;
+      font-size: 28px;
+      font-weight: 500;
+      line-height: 42px;
+      text-align: center;
+      margin: 8px 12px 0 0; }

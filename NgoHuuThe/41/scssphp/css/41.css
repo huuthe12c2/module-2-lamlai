@@ -1,0 +1,20 @@
+.block-views {
+  margin-top: 20%;
+  margin-left: 40%; }
+  .block-views .block-content ul {
+    display: inline;
+    list-style: none; }
+    .block-views .block-content ul .view-list-item {
+      margin-bottom: 25px;
+      border: 1px solid #dee2e6;
+      width: 250px;
+      padding: 5px 20px 5px;
+      height: 35px; }
+      .block-views .block-content ul .view-list-item a {
+        color: #000;
+        font-weight: 500;
+        text-decoration: none;
+        transition: all 0.35s; }
+      .block-views .block-content ul .view-list-item a:hover {
+        transition: all 0.35s;
+        color: #3eaafd; }

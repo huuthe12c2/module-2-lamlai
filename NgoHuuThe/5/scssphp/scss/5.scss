@@ -1,0 +1,79 @@
+.mg-bg{
+    margin: 200px auto;
+    .gsc-heading{
+        text-align: center;
+        .title{
+            display: inline-block;
+            text-align: center;
+            width: 550px;
+        }
+        .title-desc{
+            color: #757575;
+        }
+        margin-bottom: 40px;
+    }
+    
+    .hover-slide-next{
+        margin-bottom: 30px;
+        margin-right: 10px;
+        .slide-img{
+            position: relative;
+            width: 350px;
+            height: 250px;
+            overflow: hidden;
+            &:hover{
+                .img-scale{
+                    
+                    .img-slide{
+                        transition: all 5s;
+                        transform: scale(1.2);
+                    }
+                }
+            }
+            .img-scale{
+               
+                .img-slide{
+                    transition: all 5s;
+                    width: 350px;
+                    height: 250px;
+                    border-radius: 5px;
+                }
+            }
+            .cat-icon{
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                font-size: 20px;
+                background-color: #64c568;
+                width: 40px;
+                height: 40px;
+                display: inline-block;
+                text-align: center;
+                padding-top: 4px;
+                border-radius: 50%;
+                color: #fff;
+            }
+            .name-slide{
+                position: absolute;
+                bottom: 20px;
+                left: 10px;
+                .new-post{
+                    transition: all 0.5s;
+                    color: #fff;
+                    font-weight: bolder;
+                    font-size: 20px;
+                    text-decoration: none;
+                }
+                .new-post:hover{
+                    transition: all 0.5s;
+                    color: #3eaafd;
+                }
+                .desc-post{
+                    color: #c9c9c9;
+                    font-size: 15px;
+                    
+                }
+            }
+        }
+    }
+}

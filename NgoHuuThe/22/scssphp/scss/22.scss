@@ -1,0 +1,69 @@
+.mg-bg {
+  margin: 200px auto;
+  .gsc-heading {
+    text-align: center;
+    .sub-title {
+      span {
+        color: #3eaafd;
+        text-transform: uppercase;
+      }
+    }
+    .title {
+      display: inline-block;
+      text-align: center;
+      width: 550px;
+    }
+    .title-desc {
+      color: #757575;
+    }
+    margin-bottom: 40px;
+  }
+
+  .hover-slide-next {
+    position: relative;
+    .swiper-slide {
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      .slide-img {
+        position: relative;
+        .img-slide {
+          width: 360px;
+          height: 440px;
+        }
+        .name-slide {
+          position: absolute;
+          bottom: 30px;
+          left: 20px;
+          .new-post {
+            color: #fff;
+            background-color: #3eaafd;
+            padding: 2px 5px 2px;
+            text-decoration: none
+          }
+          .new-post:hover{
+            background: #9a30d8;
+          }
+          .desc-post {
+            color: #fff;
+            font-size: 20px;
+            font-weight: bolder;
+          }
+        }
+      }
+    }
+  }
+}

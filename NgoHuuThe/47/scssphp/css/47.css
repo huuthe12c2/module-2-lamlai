@@ -1,0 +1,63 @@
+.skil-member {
+  margin: 60px auto; }
+  .skil-member .shadow-br {
+    box-shadow: 2px 2px whitesmoke; }
+    .skil-member .shadow-br .hover-img {
+      position: relative; }
+      .skil-member .shadow-br .hover-img .dropdown-icon {
+        position: absolute;
+        top: 20px;
+        right: 50px;
+        width: 30px !important; }
+        .skil-member .shadow-br .hover-img .dropdown-icon .dropdown-menu1 {
+          transition: all 0.2s;
+          overflow: hidden;
+          transform-origin: top center;
+          transform: scale(1, 0);
+          display: block;
+          border-radius: 5px; }
+          .skil-member .shadow-br .hover-img .dropdown-icon .dropdown-menu1 .item-menu {
+            background-color: #3eaafd;
+            height: 30px;
+            font-size: 20px;
+            padding: 5px auto; }
+            .skil-member .shadow-br .hover-img .dropdown-icon .dropdown-menu1 .item-menu .fa-icon {
+              color: #fff;
+              margin-left: -18px; }
+            .skil-member .shadow-br .hover-img .dropdown-icon .dropdown-menu1 .item-menu .fa-icon:hover {
+              color: #d2166c; }
+    .skil-member .shadow-br .hover-img:hover img {
+      opacity: 0.45; }
+    .skil-member .shadow-br .hover-img:hover .dropdown-menu1 {
+      background-color: #fff;
+      transform: scale(1); }
+  .skil-member .cv {
+    color: #808080;
+    margin-bottom: 20px; }
+  .skil-member .labels {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px; }
+  .skil-member .labels span {
+    color: #666; }
+  .skil-member .progress {
+    position: relative;
+    background-color: #bcbcbc !important;
+    height: 4px !important;
+    overflow: visible !important; }
+    .skil-member .progress .progress-bar {
+      background: -webkit-linear-gradient(left, #33156d 0%, #f282bc 100%); }
+      .skil-member .progress .progress-bar span {
+        background-color: white;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 2px solid #bcbcbc;
+        right: 20px; }
+    .skil-member .progress .bar-2 span {
+      right: 10px; }
+  .skil-member .progress .bar-3 span {
+    right: 25px; }
+  .skil-member .mg-skill {
+    margin-top: 5px; }

@@ -1,0 +1,94 @@
+.skil-member {
+    .shadow-br {
+        box-shadow: 2px 2px whitesmoke;
+        .hover-img{
+            position: relative;
+            .dropdown-icon{
+                
+                position: absolute;
+                top: 20px;
+                right: 50px;
+                width: 30px !important;
+                .dropdown-menu1{
+                    
+                    transition: all 0.2s;
+                    overflow: hidden;
+                    transform-origin: top center;
+                    transform: scale(1,0);
+                    display: block; 
+                    border-radius: 5px;
+                    
+                    .item-menu{
+                        background-color: #3eaafd;
+                        height: 30px;
+                        font-size: 20px;
+                        padding: 5px auto;
+                        .fa-icon{
+                            color: #fff;
+                            margin-left: -18px;
+                        }
+                        .fa-icon:hover{
+                            color: #d2166c;
+                        }
+                    }
+                }
+                
+            }
+            
+        }
+        .hover-img:hover{
+            img{
+                opacity: 0.45;
+            }
+            .dropdown-menu1 {
+                background-color: #fff;
+                transform: scale(1);
+              } 
+        }
+    }
+    margin: 60px auto;
+    .cv {
+        color: #808080;
+        margin-bottom: 20px;
+    }
+    .labels {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+    .labels span {
+        color: #666;
+    }
+    .progress {
+        position: relative;
+        background-color: #bcbcbc !important;
+        height: 4px !important;
+        overflow: visible !important;
+        .progress-bar {
+            background: -webkit-linear-gradient(left, #33156d 0%, #f282bc 100%);
+
+            span {
+                background-color: white;
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                border: 2px solid #bcbcbc;
+                right: 20px;
+            }
+        }
+        .bar-2 {
+            span {
+                right: 10px;
+            }
+        }
+        .bar-3 {
+            span {
+                right: 25px;
+            }
+        }
+    }
+    .mg-skill {
+        margin-top: 5px;
+    }
+}

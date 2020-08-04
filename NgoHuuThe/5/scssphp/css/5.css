@@ -1,0 +1,56 @@
+.mg-bg {
+  margin: 200px auto; }
+  .mg-bg .gsc-heading {
+    text-align: center;
+    margin-bottom: 40px; }
+    .mg-bg .gsc-heading .title {
+      display: inline-block;
+      text-align: center;
+      width: 550px; }
+    .mg-bg .gsc-heading .title-desc {
+      color: #757575; }
+  .mg-bg .hover-slide-next {
+    margin-bottom: 30px;
+    margin-right: 10px; }
+    .mg-bg .hover-slide-next .slide-img {
+      position: relative;
+      width: 350px;
+      height: 250px;
+      overflow: hidden; }
+      .mg-bg .hover-slide-next .slide-img:hover .img-scale .img-slide {
+        transition: all 5s;
+        transform: scale(1.2); }
+    .mg-bg .hover-slide-next .slide-img .img-scale .img-slide {
+      transition: all 5s;
+      width: 350px;
+      height: 250px;
+      border-radius: 5px; }
+    .mg-bg .hover-slide-next .slide-img .cat-icon {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-size: 20px;
+      background-color: #64c568;
+      width: 40px;
+      height: 40px;
+      display: inline-block;
+      text-align: center;
+      padding-top: 4px;
+      border-radius: 50%;
+      color: #fff; }
+    .mg-bg .hover-slide-next .slide-img .name-slide {
+      position: absolute;
+      bottom: 20px;
+      left: 10px; }
+      .mg-bg .hover-slide-next .slide-img .name-slide .new-post {
+        transition: all 0.5s;
+        color: #fff;
+        font-weight: bolder;
+        font-size: 20px;
+        text-decoration: none; }
+      .mg-bg .hover-slide-next .slide-img .name-slide .new-post:hover {
+        transition: all 0.5s;
+        color: #3eaafd; }
+      .mg-bg .hover-slide-next .slide-img .name-slide .desc-post {
+        color: #c9c9c9;
+        font-size: 15px; }

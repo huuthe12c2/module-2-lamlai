@@ -1,0 +1,18 @@
+.benner-partners {
+  width: 80%;
+  margin: 50px auto; }
+  .benner-partners .conten-parners {
+    margin-top: 10px; }
+    .benner-partners .conten-parners .desc-partners {
+      color: #757575; }
+    .benner-partners .conten-parners .field-partners {
+      margin-top: 60px; }
+      .benner-partners .conten-parners .field-partners .title a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+        color: #000; }
+      .benner-partners .conten-parners .field-partners .title a:hover {
+        color: #3eaafd; }
+    .benner-partners .conten-parners .field-partners .info .category {
+      color: #3eaafd; }

@@ -1,0 +1,52 @@
+.mg-bg {
+  margin: 200px auto; }
+  .mg-bg .gsc-heading {
+    text-align: center;
+    margin-bottom: 40px; }
+    .mg-bg .gsc-heading .sub-title span {
+      color: #3eaafd;
+      text-transform: uppercase; }
+    .mg-bg .gsc-heading .title {
+      display: inline-block;
+      text-align: center;
+      width: 550px; }
+    .mg-bg .gsc-heading .title-desc {
+      color: #757575; }
+  .mg-bg .hover-slide-next {
+    position: relative; }
+    .mg-bg .hover-slide-next .swiper-slide {
+      font-size: 18px;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center; }
+      .mg-bg .hover-slide-next .swiper-slide .slide-img {
+        position: relative; }
+        .mg-bg .hover-slide-next .swiper-slide .slide-img .img-slide {
+          width: 360px;
+          height: 440px; }
+        .mg-bg .hover-slide-next .swiper-slide .slide-img .name-slide {
+          position: absolute;
+          bottom: 30px;
+          left: 20px; }
+          .mg-bg .hover-slide-next .swiper-slide .slide-img .name-slide .new-post {
+            color: #fff;
+            background-color: #3eaafd;
+            padding: 2px 5px 2px;
+            text-decoration: none; }
+          .mg-bg .hover-slide-next .swiper-slide .slide-img .name-slide .new-post:hover {
+            background: #9a30d8; }
+          .mg-bg .hover-slide-next .swiper-slide .slide-img .name-slide .desc-post {
+            color: #fff;
+            font-size: 20px;
+            font-weight: bolder; }

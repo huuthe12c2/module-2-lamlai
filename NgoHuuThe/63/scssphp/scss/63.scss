@@ -1,0 +1,37 @@
+.hight{
+    margin: 250px auto;
+    .border-hight{
+        background-color: #f5f7fa;
+        transition: 1s ease;
+        border-radius: 5px;
+        text-align: center;
+        padding: 20px;
+        .icon-contai{
+            color: #5a7ff0;
+            font-size: 50px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #eaf0fe;
+            text-align: center;
+            display: inline-block;
+            padding-top: 5px;
+        }
+        
+        .title-hight{
+            .title{
+                font-size: 20px;
+                font-weight: bold;
+            }
+            p{
+                margin-top: 10px;
+                color: #757575;
+            }
+        }
+    }
+    .border-hight:hover{
+        box-shadow: 0 0 10px 3px rgba(0,0,0,.1);
+         transition: 0.5s ease-in-out;
+         
+    }
+}
